@@ -1,7 +1,10 @@
 import "./App.css";
+import MobileOS from "./components/MobileOS";
 
-function App() {
-  return <div>{/* add MObileOs component here */}</div>;
+const App = () => {
+  return (
+    <div><MobileOS /></div>
+  )
 }
 
 export default App;
